@@ -6,6 +6,7 @@
     * [腾讯 2017 暑期实习生编程题](腾讯 2017 暑期实习生编程题/腾讯 2017 暑期实习生编程题.md)
         * [构造回文](腾讯 2017 暑期实习生编程题/构造回文.md)
         * [算法基础-字符移位](腾讯 2017 暑期实习生编程题/算法基础-字符移位.md)
+* [软件测试题汇总](软件测试题/题目汇总.md)
 * [Python 语言特性](Python 语言特性/readme.md)
     * [1 Python的函数参数传递](Python 语言特性/1 Python的函数参数传递.md)
     * [2 @staticmethod和@classmethod](Python 语言特性/2 @staticmethod和@classmethod.md)
