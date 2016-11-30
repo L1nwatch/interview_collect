@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 输入
 先输入一个整数n，表示后面总共要输入n组测试数据；

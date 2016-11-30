@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 题目描述
 编写程序。实现根据用户输入的三角形的边长，判定是何种三角形。

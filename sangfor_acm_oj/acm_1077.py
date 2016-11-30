@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 题目描述
 编写程序，给出一个其值不超过12345678的正整数，求出它是几位数。

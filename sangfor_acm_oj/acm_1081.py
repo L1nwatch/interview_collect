@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 题目描述
 从键盘输入2个操作数和运算符，用switch语句实现两个数的加、减、乘、除运算。

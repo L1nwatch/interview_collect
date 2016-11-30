@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 题目描述
 从键盘输入一年份，判断年份是否为闰年。

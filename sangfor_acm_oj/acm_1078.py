@@ -1,6 +1,6 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
-# version: Python3.X
+# version: Python2.X
 """
 题目描述
 输入一个其值不大于32767的正整数，将各位数字分离出来，依次显示。
