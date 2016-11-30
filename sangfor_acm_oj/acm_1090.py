@@ -3,53 +3,48 @@
 # version: Python2.X
 """
 题目描述
- 从键盘输入一个整数n(98000<=n<=100000),统计1至n范围内素数的个数。
-
-质数又称素数。指在一个大于1的自然数中，除了1和此整数自身外，没法被其他自然数整除的数。换句话说，只有两个正因数（1和自己）的自然数即为素数。比1大但不是素数的数称为合数。1和0既非素数也非合数。
+求水仙花数。水仙花数是一个3位正整数，其值等于其各个数位的立方之和。
 
 输入
-输入一个整数n(98000<=n<=100000)
+无
 
 输出
-素数的个数
+输出所有水仙花数，每个水仙花数单独占一行。
 
-样例输入
-100000
 样例输出
-9592
+153
+370
+371
+407
 """
 # import gmpy2
 
 __author__ = '__L1n__w@tch'
 
 
-def is_prime_number(number):
-    if number == 0 or number == 1:
-        return False
-    elif number == 2:
+def is_shuixianhua(number):
+    raw_number = number
+    sum_of_all = 0
+    for each_number in str(number):
+        sum_of_all += int(each_number) ** 3
+
+    if raw_number == sum_of_all:
         return True
-    for i in range(2, int(number ** 0.5 + 1)):
-        if number % i == 0:
-            return False
-
-    return True
+    else:
+        return False
 
 
-def solve(question):
-    number = question
-    counts = 0
-
-    for i in range(1, number + 1):
-        if is_prime_number(i):
-            counts += 1
-
-    return counts
+def solve():
+    for i in range(100, 1000):
+        if is_shuixianhua(i):
+            print i
 
 
 if __name__ == "__main__":
     while True:
         try:
-            problem_input = input()
-            print solve(problem_input)
+            # problem_input = input()
+            solve()
+            break
         except EOFError:
             break
