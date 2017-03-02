@@ -34,6 +34,7 @@
     * [9 Python 里的拷贝](Python 语言特性/9 Python 里的拷贝.md)
 * [stackoverflow-about-Python](stackoverflow-about-Python/readme.md)
     * [Python中关键字yield有什么作用?](stackoverflow-about-Python/Python中关键字yield有什么作用.md)
+    * [Python中的元类(metaclass)是什么?](stackoverflow-about-Python/Python中的元类(metaclass)是什么.md)
 * [Python 面试编程题](Python 面试编程题/readme.md)
     * [1 台阶问题 斐波那契](Python 面试编程题/1 台阶问题 斐波那契/斐波那契.md)
     * [2 变态台阶问题](Python 面试编程题/2 变态台阶问题/变态台阶问题.md)
