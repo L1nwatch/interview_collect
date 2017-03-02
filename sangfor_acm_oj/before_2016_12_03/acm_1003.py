@@ -36,6 +36,6 @@ if __name__ == "__main__":
             problem_input = input()
             if problem_input == 0:
                 break
-            print solve(problem_input)
+            print(solve(problem_input))
         except EOFError:
             break
