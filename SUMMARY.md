@@ -61,7 +61,7 @@
     * [为什么代码在一个函数里运行的更快](stackoverflow-about-Python/为什么代码在一个函数里运行的更快.md)
     * [如何快速合并列表中的列表?](stackoverflow-about-Python/快速合并列表中的列表.md)
     * [如何知道一个对象有一个特定的属性?](stackoverflow-about-Python/如何知道一个对象有一个特定的属性.md)
-    * [如何通过函数名的字符串来调用这个函数?](stackoverflow-about-Python/如何通过函数名的字符串来调用这个函数.md)
+    * [如何通过函数名的字符串来调用这个函数?](stackoverflow-about-Python/如何通过函数名的字符串来调用函数.md)
     * [单下划线和双下划线的含义?](stackoverflow-about-Python/单下划线和双下划线的含义.md)
 * [Python 面试编程题](Python 面试编程题/readme.md)
     * [1 台阶问题 斐波那契](Python 面试编程题/1 台阶问题 斐波那契/斐波那契.md)
