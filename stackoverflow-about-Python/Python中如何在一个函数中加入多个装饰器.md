@@ -170,6 +170,24 @@ def decorator_with_args(decorator_to_enhance):
             return decorator_to_enhance(func, *args, **kwargs)
 
         return decorator_wrapper
+     return decorator_maker
+```
+
+删除多余注释：
+
+```python
+def decorator_with_args(decorator_to_enhance):
+    """
+    这个函数将被用来作为装饰器. 使得被它装饰的装饰器可以接收多个参数
+    """
+
+    def decorator_maker(*args, **kwargs):
+        def decorator_wrapper(func):
+            return decorator_to_enhance(func, *args, **kwargs)
+
+        return decorator_wrapper
+
+    return decorator_maker
 ```
 
 使用方法：
@@ -194,6 +212,18 @@ decorated_function("Universe and", "everything")
 #输出:
 #Decorated with (42, 404, 1024) {}
 #Hello Universe and everything
+```
+
+自己成功使用的示例：
+
+```python
+@decorator_with_args
+def log_wrapper(func, *args, **kwargs):
+    def wrapper(*func_args, **func_kwargs):
+        print("[*] 测试装饰器")
+        return func(*func_args, **func_kwargs)
+
+    return wrapper
 ```
 
 ### 后续
