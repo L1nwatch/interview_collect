@@ -27,7 +27,7 @@
     * [2 @staticmethod和@classmethod](Python 语言特性/2 @staticmethod和@classmethod.md)
     * [3 类变量和实例变量](Python 语言特性/3 类变量和实例变量.md)
     * [4 Python中单下划线和双下划线](Python 语言特性/4 Python中单下划线和双下划线.md)
-    * [5 *args and **kwargs](Python 语言特性/5 *args and **kwargs.md)
+    * [5 *args and **kwargs](Python 语言特性/5 args and kwargs.md)
     * [6 面向切面编程AOP和装饰器](Python 语言特性/6 面向切面编程AOP和装饰器.md)
     * [7 单例模式](Python 语言特性/7 单例模式.md)
     * [8 Python 函数式编程](Python 语言特性/8 Python 函数式编程.md)
