@@ -36,7 +36,7 @@ class Checker:
         result_list = list()
         title_re = re.compile("\[.*\]\((.*)\)")
 
-        with open(md_file_path, "r") as f:
+        with open(md_file_path, "r",encoding="utf8") as f:
             for each_line in f:
                 re_result = title_re.findall(each_line)
                 if re_result:
