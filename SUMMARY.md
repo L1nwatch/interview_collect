@@ -21,6 +21,7 @@
 * [深信服_sangfor_相关](深信服_sangfor_相关/readme.md)
     * [深信服acm相关](深信服_sangfor_相关/sangfor_acm_oj/readme.md)
     * [智安全杯](深信服_sangfor_相关/智安全杯/readme.md)
+        * [智安全杯-2018比赛](深信服_sangfor_相关/智安全杯/2018比赛.md)
         * [智安全杯-2019初赛](深信服_sangfor_相关/智安全杯/2019初赛.md)
         * [智安全杯-2019复赛](深信服_sangfor_相关/智安全杯/2019复赛.md)
 * [软件测试题汇总](软件测试题/题目汇总.md)
