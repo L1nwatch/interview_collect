@@ -20,6 +20,7 @@
         * [数位和](网易 2017 校招笔试编程题/数位和.md)
 * [深信服_sangfor_相关](深信服_sangfor_相关/readme.md)
     * [深信服acm相关](深信服_sangfor_相关/sangfor_acm_oj/readme.md)
+    * [测试类面试参考](深信服_sangfor_相关/测试类面试参考.md)
     * [智安全杯](深信服_sangfor_相关/智安全杯/readme.md)
         * [智安全杯-2018比赛](深信服_sangfor_相关/智安全杯/2018比赛.md)
         * [智安全杯-2019初赛](深信服_sangfor_相关/智安全杯/2019初赛.md)
